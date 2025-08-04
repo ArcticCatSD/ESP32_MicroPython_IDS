@@ -87,7 +87,7 @@ async def main():
 ble = bluetooth.BLE()
 ble.active(True)
 mac = ble.config("mac")
-print(f"Loacal address: {addr_to_str(mac[1])} ({addr_type_to_str(mac[0])})")
+print(f"Local address: {addr_to_str(mac[1])} ({addr_type_to_str(mac[0])})")
 ble.irq(ble_isr)
 ble.gap_advertise(_adv_interval_us)
 asyncio.run(main())

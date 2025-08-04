@@ -121,7 +121,7 @@ async def main():
 
     # 取得本地端的藍芽位址及類型
     mac = ble.config("mac")
-    print(f"Loacal address: {addr_to_str(mac[1])} ({addr_type_to_str(mac[0])})")
+    print(f"Local address: {addr_to_str(mac[1])} ({addr_type_to_str(mac[0])})")
 
     # 發送廣播
     adv_data = build_advertising_payload()
