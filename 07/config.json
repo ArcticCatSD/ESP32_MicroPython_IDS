@@ -1,0 +1,10 @@
+{
+    "local_name": "IDS 🍭",
+    "adv_interval_us": 250000,
+    "passkey": "123456",
+    "idd_features": [
+        1,
+        2,
+        3
+    ]
+}
